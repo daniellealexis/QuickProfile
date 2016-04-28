@@ -49,6 +49,9 @@ p {
     background: linear-gradient(to left, #1CD8D2 , #93EDC7);
     text-align: center;
     white-space: nowrap;
+    padding: 2rem 2.5%;
+    box-sizing: border-box;
+    overflow-x: auto;
 }
 
 .bg-wrapper:before {
@@ -65,7 +68,6 @@ p {
     white-space: normal;
     min-height: 60vh;
     width: 18rem;
-    max-width: 95%;
     padding: 2rem;
     box-sizing: border-box;
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
@@ -86,7 +88,7 @@ p {
 }
 
 .em {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-family: 'BrownBold', 'HelveticaNeue', Arial;
     display: inline-block;
     line-height: 1rem;
